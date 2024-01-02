@@ -5,6 +5,6 @@ environment:
 packages:
   - name: sample
     actions:
-      - name: rag-app
+      - name: rag
         runtime: 'python:default'
         

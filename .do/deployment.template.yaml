@@ -10,4 +10,4 @@ functions:
   routes:
   - path: /
   source_dir: /
-name: rag-app
+name: rag
