@@ -1,0 +1,10 @@
+environment:
+  OPENAI_API_KEY: ${OPENAI_API_KEY}
+  PINECONE_API_KEY: ${PINECONE_API_KEY}
+  PINECONE_API_ENV: ${PINECONE_API_ENV}
+packages:
+  - name: sample
+    actions:
+      - name: rag-app
+        runtime: 'python:default'
+        

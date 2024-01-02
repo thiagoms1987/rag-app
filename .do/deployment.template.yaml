@@ -1,0 +1,13 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+functions:
+- github:
+    branch: main
+    deploy_on_push: true
+    repo: thiagoms1987/rag-app
+  name: rag-app
+  routes:
+  - path: /
+  source_dir: /
+name: rag-app
