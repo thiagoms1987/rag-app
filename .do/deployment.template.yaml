@@ -6,7 +6,7 @@ functions:
     branch: main
     deploy_on_push: true
     repo: thiagoms1987/rag-app
-  name: rag-app
+  name: rag-app-func
   routes:
   - path: /
   source_dir: /
